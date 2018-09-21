@@ -1,0 +1,41 @@
+/*Tipografias*/
+body {
+  background: rgba(255, 0, 0, 0.356);
+  margin: 0;
+}
+article {
+  background: rgba(255, 255, 0, 0.705);
+  margin: 0 auto;
+  max-width: 800px;
+}
+.parrafo {
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 40px;
+  color: aqua;
+}
+.anidacion {
+  background: aquamarine;
+  margin: 0;
+}
+.anidacion:hover {
+  cursor: pointer;
+}
+.anidacion.error {
+  color: gray;
+  font-size: 30px;
+}
+/*Layouts*/
+.section,
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  padding: 48px;
+  max-width: 80%;
+}
+.container--landing {
+  max-width: 80%;
+}

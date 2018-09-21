@@ -1,0 +1,81 @@
+@-webkit-viewport {
+  width: device-width;
+}
+@-moz-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+html {
+  font-size: 87.5%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: transparent;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  color: black;
+}
+p {
+  font-size: 1em;
+  text-color: #ea83ee;
+}
+.btn {
+  display: inline-block;
+  line-height: 2.2;
+  color: #ffffff;
+  background-color: #ea83ee;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.btn:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.btn--alert {
+  background-color: #d20000;
+}
+.btn a {
+  color: blue;
+}
+.btn a span {
+  color: white;
+}
+.container {
+  padding: 24px;
+  max-width: 2014px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container--landing {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.align-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
+.margin-bottom {
+  margin-bottom: 12px;
+}
+/*# sourceMappingURL=styles.css.map */

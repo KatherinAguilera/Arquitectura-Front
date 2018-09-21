@@ -1,0 +1,17 @@
+/*Layouts*/
+
+.section,
+.container {
+    .max-width;
+}
+
+//Reutilizacion de mixins 
+
+.container {
+    padding: @superpadding*2;
+    .min-width(80%);
+}
+
+.container--landing {
+    .min-width(80%);
+}

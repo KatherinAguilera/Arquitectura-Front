@@ -1,0 +1,10 @@
+.max-width() {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+// Reutilizar mixin
+.min-width(@min-width: @page-max-width) {
+    //declaramos el parametro maxwidth con page-max-width por defecto
+    max-width: @min-width;
+}

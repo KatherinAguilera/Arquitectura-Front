@@ -1,0 +1,35 @@
+/*Tipografias*/
+body {
+    background: @color-primary;
+    margin: 0;
+}
+
+article {
+    background: @color-article;
+    // margin-left: auto;
+    // margin-right: auto;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+// Usage variables de  selector
+.@{my-selector} {
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 40px;
+    color: @color-secundary;
+}
+
+// anidaciones
+
+.anidacion{
+    background: aquamarine;
+    margin: 0;
+    &:hover{
+        cursor: pointer;
+    }
+    &.error{
+        color: gray;
+        font-size:30px; 
+    }
+}
